@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./scenes/Home/Home";
+import AdminHome from "./scenes/Admin/AdminHome";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     element: <App />,
     children:[
       {
-        index: true, element:<Home />,
+        index: true, element:<AdminHome />,
       },
     ]
   },

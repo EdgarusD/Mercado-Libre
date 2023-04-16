@@ -1,5 +1,6 @@
 import React from 'react'
 import * as M from '@mantine/core'
+import Test from '../../components/Test'
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <M.Text>
         Home
       </M.Text>
+      <Test />
     </M.Box>  
   )
 }
